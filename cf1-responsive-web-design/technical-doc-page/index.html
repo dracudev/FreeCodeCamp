@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- hacer sticky fixed a la izquierda -->
+    <nav id="navbar">
+        <header>
+            <h1>JaviScript Documentation</h1>
+        </header>
+            <ul>
+                <li><a class="nav-link" href="#Introducción">Introducción</a></li>
+                <li><a class="nav-link" href="#Cómo_empezar">Cómo empezar</a></li>
+                <li><a class="nav-link" href="#Características">Características</a></li>
+                <li><a class="nav-link" href="#Recursos_adicionales">Recursos adicionales</a></li>
+                <li><a class="nav-link" href="#Agradecimientos">Agradecimientos</a></li>
+            </ul>
+    </nav>
+
+    <main id="main-doc">
+        <!-- main content -->
+        <section class="main-section" id="Introducción">
+            <header>Introducción</header>
+            <article>
+                <p>¡Hola, amigos humanos, y bienvenidos al increíble mundo de JaviScript! ¿Estás listo para descubrir un lenguaje que no solo se aplica a las máquinas, sino también a tus propias peripecias diarias?</p>
+                <p>¡Con JaviScript, te transformarás en el maestro de tu propio destino, escribiendo líneas de código para una vida más épica y emocionante!</p>
+                <code>function encontrarLlaves(bolsillos) {
+                        const llaves = bolsillos.find(objeto => objeto === "Llaves");
+                        if (llaves) {
+                          return "¡Encontré las llaves!";
+                        } else {
+                          return "Sigue buscando, las llaves están por ahí.";
+                        }
+                      }
+                      
+                      const objetosEnBolsillos = ["Teléfono", "Billetera", "Llaves", "Caramelos"];
+                      const mensajeLlaves = encontrarLlaves(objetosEnBolsillos);
+                      console.log(mensajeLlaves);</code>
+            </article>
+        </section>
+
+        <section class="main-section" id="Cómo_empezar">
+            <header>Cómo empezar</header>
+            <article>
+                <p>Aprende las Bases: Sumérgete en el emocionante mundo de JaviScript, aprendiendo los conceptos básicos y familiarizándote con la sintaxis para empezar a programar tu vida de manera más efectiva.</p>
+                <p>Aplica en la Vida Real: ¡No esperes más para aplicar tus habilidades recién adquiridas! Utiliza JaviScript para mejorar tus relaciones, optimizar tu tiempo y resolver problemas cotidianos como un verdadero superhéroe humano.</p>
+                <p>Sé Creativo: ¡No tengas miedo de pensar fuera de la caja y experimentar con nuevas ideas y enfoques! La vida es tu lienzo y JaviScript es tu pincel; ¡escribe tu propia obra maestra épica!</p>
+                <code>function saludar(nombre) {
+                      return `¡Hola, ${nombre}! ¿Listo para conquistar el día?`;
+                    }
+
+                    const mensaje = saludar("Amigo");
+                    console.log(mensaje); </code>
+            </article>
+        </section>
+
+        <section class="main-section" id="Características">
+            <header>Características</header>
+            <article>
+                <p>Con JaviScript, tu viaje hacia la grandeza no tiene límites. A medida que domines las habilidades fundamentales, podrás explorar nuevas fronteras y desafíos emocionantes. ¿Quieres mejorar tus habilidades de liderazgo? ¿Aprender a gestionar el estrés como un profesional? ¿O tal vez descubrir el arte de la persuasión?</p>
+                <p>Con JaviScript, todo esto y más está a tu alcance. ¡Prepárate para embarcarte en una emocionante aventura de autodescubrimiento y crecimiento personal con JaviScript como tu guía confiable!</p>
+                <code>function planificarDia(actividades) {
+                        return actividades.filter(actividad => !esTareaPendiente(actividad))
+                                          .map(actividad => organizar(actividad))
+                                          .join("\n");
+                      }
+                      
+                      const actividades = ["Ir al gimnasio", "Reunión con el equipo", "Completar informe"];
+                      const planDia = planificarDia(actividades);
+                      console.log(planDia);</code>
+                <ul>
+                    <li>Comunicación Asertiva: ¿Te gustaría comunicarte con claridad y confianza en todas tus interacciones humanas? ¡Con JaviScript, podrás expresar tus ideas de manera clara y directa, convirtiéndote en el orador más convincente de la sala de estar!</li>
+                    <li>Optimización del Tiempo: ¿Necesitas más horas en el día para hacer todas esas cosas increíbles que quieres hacer? ¡Con JaviScript, optimizarás tu tiempo como un maestro del cronograma, asegurándote de tener tiempo suficiente para conquistar el mundo (o al menos tu lista de tareas)!</li>
+                    <li>Gestión de Relaciones: ¿Quieres mejorar tus relaciones humanas y construir conexiones más sólidas con los que te rodean? ¡Con JaviScript, aprenderás a manejar las relaciones como un verdadero experto en emociones, creando vínculos que perdurarán para siempre (o al menos hasta la próxima actualización de software)!</li>
+                    <li>Resolución de Problemas: ¿Te enfrentas a desafíos diarios que te hacen rascarte la cabeza? ¡Con JaviScript, serás un maestro en la resolución de problemas, encontrando soluciones creativas y eficientes para cualquier situación que se te presente!</li>
+                    <li>Crecimiento Personal: ¿Quieres alcanzar tu máximo potencial y convertirte en la mejor versión de ti mismo? ¡Con JaviScript, desarrollarás habilidades de auto-mejora como un ninja del desarrollo personal, superando obstáculos y desbloqueando logros en tu viaje épico de la vida!</li>
+                </ul>
+            </article>
+        </section>
+
+        <section class="main-section" id="Recursos_adicionales">
+            <header>Recursos adicionales</header>
+            <article>
+                <p>Únete a la comunidad de JaviScript en línea para compartir experiencias, obtener consejos y conectar con otros humanos que están en la misma búsqueda de una vida más épica y emocionante.</p>
+                <p>Explora nuestra extensa biblioteca de tutoriales, blogs y recursos para obtener inspiración y seguir desarrollando tus habilidades en JaviScript.</p>
+                <code>function expresarGratitud(persona) {
+                        return `Gracias por ser increíble, ${persona}! Eres un tesoro en mi vida.`;
+                      }
+                      
+                      const amigos = ["Amigo 1", "Amigo 2", "Amigo 3"];
+                      amigos.forEach(amigo => {
+                        const mensaje = expresarGratitud(amigo);
+                        console.log(mensaje);</code>
+            </article>
+        </section>
+
+        <section class="main-section" id="Agradecimientos">
+            <header>Agradecimientos</header>
+            <article>
+                <p>¡Gracias por elegir JaviScript para tu viaje emocionante de autodescubrimiento y crecimiento personal!</p>
+                <p>¡Que tu código esté siempre libre de errores y tu vida llena de aventuras sin fin!</p>
+                <code>const metasPersonales = {
+                        aprender: ["Aprender un nuevo idioma", "Aprender a tocar un instrumento"],
+                        viajar: ["Visitar al menos 5 países nuevos"],
+                        salud: ["Hacer ejercicio regularmente", "Comer de manera más saludable"]
+                      };
+                      
+                      for (let categoria in metasPersonales) {
+                        console.log(`Mis metas para ${categoria}:`);
+                        metasPersonales[categoria].forEach(meta => {
+                          console.log(`- ${meta}`);
+                        });
+                      }</code>
+            </article>
+        </section>
+    </main>
+    
+</body>
+</html>

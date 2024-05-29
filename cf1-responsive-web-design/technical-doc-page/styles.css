@@ -1,0 +1,99 @@
+/* meter al menos 1 media query */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+/* NAVBAR */
+
+#navbar {
+    position: fixed;
+    height: 100%;
+    width: 17%;
+    background-color: #489494a4;
+    padding: 1rem 0;
+    text-align: center;
+    z-index: 100;
+    border-right: 2px solid #a79b9b;
+}
+
+#navbar header {
+    margin-bottom: 1rem;
+    color: rgba(53, 95, 172, 0.767);
+    font-size: 15px
+}
+
+#navbar ul {
+    list-style: none;
+}
+
+#navbar ul li {
+    padding: 1rem;
+    border-top: 1.5px solid #1d1d1d;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+#navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+/* MAINDOC */
+
+#main-doc {
+    margin-left: 18%;
+    width: 83%;
+    padding: 1rem;
+}
+
+.main-section {
+    margin: 1rem 2rem 1rem 0;
+    padding: 0.5rem;
+}
+
+.main-section header {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 0 0 0.5rem -1rem;
+}
+
+.main-section p, li {
+    margin: 1.5rem 0;
+    font-size: 1rem;
+}
+
+.main-section code {
+    display: block;
+    background-color: #bebbbb41;
+    padding: 2rem;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    line-height: 1.8rem;
+    white-space: pre-line;
+}
+
+.main-section li {
+    margin-left: 2.5rem;
+}
+
+/* MEDIA QUERIES */
+
+ @media (max-width: 858px) {
+    #navbar li {
+        font-size: 0.8rem;
+    }
+}

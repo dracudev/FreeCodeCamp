@@ -1,0 +1,70 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+
+  main {
+    margin: 2rem 0.5rem;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  header {
+    text-align: center;
+  }
+
+  h1 {
+    margin: 1rem 0;
+    font-size: 2.5rem;
+  }
+
+  #img-div {
+    background-color: #fff;
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #image {
+    max-width: 100%;
+    width: 50%;
+    height: auto;
+  }
+
+  #img-caption {
+    margin-top: 1rem;
+  }
+
+  #tribute-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  ul, blockquote {
+    margin: 1rem;
+    max-width: 40%;
+  }
+
+  section h3{
+    margin: 1rem
+  }
+
+  section li {
+    margin: 0.5rem;
+    padding: 0.5rem;
+  }

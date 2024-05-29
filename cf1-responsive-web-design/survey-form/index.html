@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+
+<body>
+    <header>
+        <h1 id="title">andreujavier.dev Survey Form</h1>
+        <p id="description">Let me know how can I improve my portfolio web page</p>
+    </header>
+
+    <div class="container">
+        <form id="survey-form" action="#">
+            <div class="form-group">
+                <label for="name" id="name-label">Name</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email" id="email-label">Email</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="number" id="number-label">Age (optional)</label>
+                <input type="number" id="number" min="10" max="100" placeholder="Age">
+            </div>
+
+            <div class="form-group">
+                <p>Which option best describes your current role?</p>
+                <select id="dropdown">
+                    <option value="" selected disabled hidden>Select current rol</option>
+                    <option value="student">Student</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="developer">Developer</option>
+                    <option value="prefer">Prefer not to say</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <p>Would you recommend my portfolio web page?</p>
+                <label>
+                    <input type="radio" name="recommend" value="definitely" class="input-radio">Definitely
+                </label>
+                <label>
+                    <input type="radio" name="recommend" value="Maybe" class="input-radio">Maybe
+                </label>
+                <label>
+                    <input type="radio" name="recommend" value="Not sure" class="input-radio">Not sure
+                </label>
+            </div>
+
+            <div class="form-group">
+                <p>What do you like the most about my portfolio web page?</p>
+                <label>
+                    <input type="checkbox" name="like" value="design" class="input-checkbox">Design
+                </label>
+                <label>
+                    <input type="checkbox" name="like" value="projects" class="input-checkbox">Projects
+                </label>
+                <label>
+                    <input type="checkbox" name="like" value="usability" class="input-checkbox">Usability
+                </label>
+                <label>
+                    <input type="checkbox" name="like" value="other" class="input-checkbox">Other
+                </label>
+            </div>
+
+            <div class="form-group">
+            <p>Any comments or suggestions?</p>
+            <textarea id="comments" placeholder="Enter your comments here"></textarea>
+            </div>
+            
+            <div class="form-group">
+            <button type="submit" id="submit">Submit</button>
+            </div>
+        </form>
+
+    </div>
+</body>
+</html>
